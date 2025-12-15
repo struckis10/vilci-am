@@ -1,6 +1,4 @@
-/* =========================
-   RESET + VARIABLES
-========================== */
+
 *, *::before, *::after {
     box-sizing: border-box;
     margin: 0;
@@ -22,9 +20,7 @@
     overflow-x: hidden;
   }
   
-  /* =========================
-     MONKEY BACKGROUND
-  ========================== */
+ 
   .monkey-bg {
     position: fixed;
     inset: 0;
@@ -42,9 +38,7 @@
     z-index: -1;
   }
   
-  /* =========================
-     GLASS CARD
-  ========================== */
+  
   .card {
     max-width: 720px;
     margin: 15vh auto;
@@ -69,10 +63,8 @@
     line-height: 1.6;
     font-size: 1.1rem;
   }
+ 
   
-  /* =========================
-     BUTTON
-  ========================== */
   .btn {
     display: inline-block;
     margin-top: 3rem;
@@ -91,9 +83,7 @@
     box-shadow: 0 25px 60px rgba(154,255,0,0.6);
   }
   
-  /* =========================
-     FULLSCREEN MONKEY
-  ========================== */
+  
   .monkey-jump {
     position: fixed;
     inset: 0;
