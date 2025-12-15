@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="lv">
+<head>
+  <meta charset="UTF-8" />
+  <title>ĻOTI GLĪTA MĀJASLAPA</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+  <div class="monkey-bg"></div>
+  <div class="noise"></div>
+
+  <section class="card">
+    <h1>Modern Web Platform</h1>
+    <p>
+      Šī mājaslapa izmanto modernākās CSS tehnoloģijas:<br>
+      glassmorphism, blur, gradients un tīru dizainu.
+    </p>
+
+    <a href="#" class="btn" id="open">Atvērt dokumentu</a>
+  </section>
+
+  <footer>© 2025 Advanced UI Systems</footer>
+
+  <div class="monkey-jump" id="monkey"></div>
+
+  <script>
+    const btn = document.getElementById('open');
+    const monkey = document.getElementById('monkey');
+
+    btn.addEventListener('click', e => {
+      e.preventDefault();
+      monkey.style.display = 'block';
+
+      setTimeout(() => {
+        monkey.style.display = 'none';
+      }, 1500);
+    });
+  </script>
+
+</body>
+</html>
